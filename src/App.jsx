@@ -177,7 +177,7 @@ class App extends Component {
           <div id="popupWindow">
             <div id="popupHeader">Login</div>
             <div id="signin">
-              <label className="usernameLabel">User name*</label>
+              <label className="usernameLabel">Email*</label>
               <input type="text" id="username" />
               <label className="passwordLabel">Password*</label>
               <input type="password" id="password" />
