@@ -1,5 +1,6 @@
 //callApi
-export const BASEURL = "http://localhost:8081/";
+//export const BASEURL = "http://localhost:8081/";
+export const BASEURL = "http://ec2-98-88-22-78.compute-1.amazonaws.com:8081/";
 export function callApi(reqmethod, url, data, responseHandler)
 {
     let option = "";
